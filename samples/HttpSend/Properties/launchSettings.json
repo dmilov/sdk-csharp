@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HttpSend": {
+      "commandName": "Project",
+      "commandLineArgs": "--url http://localhost:52672/"
+    }
+  }
+}

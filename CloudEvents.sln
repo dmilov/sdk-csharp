@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNative.CloudEvents.Int
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudNative.CloudEvents.Avro", "src\CloudNative.CloudEvents.Avro\CloudNative.CloudEvents.Avro.csproj", "{E4BE54BF-F4D7-495F-9278-07E5A8C79935}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpListener", "HttpListener\HttpListener.csproj", "{A556264B-E136-449D-B355-0BFA5D32AD6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,18 @@ Global
 		{E4BE54BF-F4D7-495F-9278-07E5A8C79935}.Release|x64.Build.0 = Release|Any CPU
 		{E4BE54BF-F4D7-495F-9278-07E5A8C79935}.Release|x86.ActiveCfg = Release|Any CPU
 		{E4BE54BF-F4D7-495F-9278-07E5A8C79935}.Release|x86.Build.0 = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Debug|x86.Build.0 = Debug|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|x64.Build.0 = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|x86.ActiveCfg = Release|Any CPU
+		{A556264B-E136-449D-B355-0BFA5D32AD6D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -41,12 +41,14 @@ namespace CloudNative.CloudEvents
                     formatter.EncodeStructuredEvent(cloudEvent, out var contentType);
                 httpListenerResponse.ContentType = contentType.ToString();
                 MapAttributesToListenerResponse(cloudEvent, httpListenerResponse);
+                httpListenerResponse.ContentLength64 = buffer.Length;
                 return httpListenerResponse.OutputStream.WriteAsync(buffer, 0, buffer.Length);
             }
 
             Stream stream = MapDataAttributeToStream(cloudEvent, formatter);
             httpListenerResponse.ContentType = cloudEvent.DataContentType.ToString();
             MapAttributesToListenerResponse(cloudEvent, httpListenerResponse);
+            httpListenerResponse.ContentLength64 = stream.Length;
             return stream.CopyToAsync(httpListenerResponse.OutputStream);
         }
 
